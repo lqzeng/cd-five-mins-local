@@ -10,7 +10,7 @@ spec:
   project: default
   destination:
     namespace: nginx-pod-dev
-    name: kind-kind
+    name: minikube
   source:
     repoURL: https://github.com/lqzeng/cd-five-mins-local.git
     targetRevision: main

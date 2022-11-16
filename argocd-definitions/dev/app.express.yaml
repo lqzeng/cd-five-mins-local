@@ -9,7 +9,7 @@ metadata:
 spec:
   destination:
     namespace: express-dev
-    name: kind-kind
+    name: minikube
   project: default
   source:
     path: ./k8s-resources/express/overlays/dev
